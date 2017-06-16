@@ -14,7 +14,7 @@
 http://www.oracle.com/technetwork/java/javase/overview/index.html
 
 
-.. code:: sh
+.. code-block:: sh
 
     $ sudo tar xzvf jdk-8u131-linux-x64.tar.gz -C /opt/
     $ cd /opt/jdk1.8.0_131
@@ -22,7 +22,7 @@ http://www.oracle.com/technetwork/java/javase/overview/index.html
 
 编辑 **$HOME/.bash_aliases** 
 
-.. code:: sh
+.. code:: 
 
     # config java
     export JAVA_HOME=/opt/jdk1.8.0_131  
@@ -30,7 +30,23 @@ http://www.oracle.com/technetwork/java/javase/overview/index.html
     export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
     export PATH=${JAVA_HOME}/bin:$PATH
 
-.. code:: sh
+.. code:: 
 
     $ java -version
+
+Eclipse
+------------
+Downloads
+        https://www.eclipse.org/downloads/eclipse-packages/
+
+.. code-block:: sh
+
+    $ sudo tar xzvf eclipse-inst-linux64.tar.gz -C /opt/
+
+
+编辑 **$HOME/.bash_aliases** 
+
+.. code::
+
+        alias eclipse=/opt/eclipse/eclipse
 
