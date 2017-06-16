@@ -12,8 +12,6 @@ Welcome to learn_java's documentation!
 
    install/index.rst
 
-
-
 Indices and tables
 ==================
 
