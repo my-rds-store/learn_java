@@ -10,7 +10,8 @@ Welcome to learn_java's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   install/index.rst
+   install/index
+   js/index
 
 Indices and tables
 ==================
